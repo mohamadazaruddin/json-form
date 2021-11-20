@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <style>
         body {
             padding: 25px;
@@ -137,7 +137,7 @@
         </div>
     </div> -->
 
-    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script>
         var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
             keyboard: false
@@ -279,72 +279,58 @@
             successinput = false;
 
             if (name_regex.test(nameInputVal)) {
-                successinput = true;
                 document.getElementById("fnameerror").innerHTML = "";
             } else {
-                successinput = false;
+
                 document.getElementById("fnameerror").innerHTML = "please enter your full name";
             }
 
             if (ageInputVal) {
-                successinput = true;
+
                 document.getElementById("ageerror").innerHTML = "";
             } else {
-                successinput = false;
+
                 document.getElementById("ageerror").innerHTML = "please enter your age";
             }
             var phoneno = /^\d{10}$/;
             if (phoneno.test(mobNumberInputVal)) {
                 if (mobNumberInputVal.length == 10) {
-                    successinput = true;
                     document.getElementById("mobnoerror").innerHTML = "";
                 }
             } else {
-                successinput = false;
                 document.getElementById("mobnoerror").innerHTML = "please enter your proper mobile no";
             }
             if (emailInputVal) {
                 document.getElementById("emailerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("emailerror").innerHTML = "please enter your email";
             }
             if (officeInputVal) {
                 document.getElementById("officeerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("officeerror").innerHTML = "please enter your office detail";
             }
             if (positionInputVal) {
                 document.getElementById("positionerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("positionerror").innerHTML = "please enter your position detail";
             }
             if (dateofjoiningInputVal) {
                 document.getElementById("dojerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("dojerror").innerHTML = "please enter your date of joining details";
             }
             if (experienceInputVal) {
                 document.getElementById("experienceerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("experienceerror").innerHTML = "please enter your experience detail";
             }
             if (salaryInputVal) {
                 document.getElementById("salerror").innerHTML = "";
-                successinput = true;
             } else {
-                successinput = false;
                 document.getElementById("salerror").innerHTML = "please enter your salary detail";
             }
+
             if (nameInputVal &&
                 ageInputVal &&
                 mobNumberInputVal &&
