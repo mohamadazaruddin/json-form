@@ -42,7 +42,7 @@
                     <th scope="col">Email</th>
                     <th scope="col">office</th>
                     <th scope="col">position</th>
-                    <th scope="col">date of joining</th>
+                    <th scope="col">Joining year</th>
                     <th scope="col">experience</th>
                     <th scope="col">salary</th>
                     <th scope="col">Update</th>
@@ -98,8 +98,10 @@
                                     placeholder="Write here..." maxlength="25">
                                 <p class="forerrors" id="positionerror"></p>
                                 <div class="mb-3">
-                                    <label for="fulldojInputContrl" class="form-label">date of joining</label>
-                                    <input type="date" class="form-control" id="fulldojInputContrl">
+                                    <label for="fulldojInputContrl" class="form-label">Joined year</label>
+                                    <input type="text" class="form-control" placeholder="year" id="fulldojInputContrl"
+                                        maxlength="
+                                    4">
                                     <p class="forerrors" id="dojerror"></p>
                                     <div class="mb-3">
                                         <label for="fullexpInputContrl" class="form-label">experience</label>
@@ -277,6 +279,7 @@
             var salaryInputVal = document.getElementById("fullsalaryInputContrl").value + "rs";
             var name_regex = /^[a-zA-Z ]{2,30}$/;
             successinput = false;
+            editModeIs = false;
 
             if (name_regex.test(nameInputVal)) {
                 document.getElementById("fnameerror").innerHTML = "";

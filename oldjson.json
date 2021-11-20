@@ -2,7 +2,7 @@
     [
            { "name": "Sergio Ramos",
             "office": "tokyo",
-            "dateofjoining": "2008/11/28",
+            "dateofjoining": "2008",
             "age": "36",
             "position": "Accountant",
             "experience": "13yrs",
@@ -15,7 +15,7 @@
         {
             "name": "Gerath Bale",
             "office": "london",
-            "dateofjoining": "2009/10/09",
+            "dateofjoining": "2009",
             "age": "44",
             "position": "Chief Executive Officer(ceo)",
             "experience": "12yrs",
@@ -27,7 +27,7 @@
         {
             "name": "Diago marcelia",
             "office": "San Francisco",
-            "dateofjoining": "2009/01/12",
+            "dateofjoining": "2009",
             "age": "25",
             "position": "Junior Technical Author",
             "experience": "12yrs",
@@ -39,7 +39,7 @@
           {
             "name": "Charlie Puth",
             "office": "london",
-            "dateofjoining": "2012/10/13",
+            "dateofjoining": "2012",
             "age": "47",
             "position": "Software Engineer",
             "experience": "9yrs",
@@ -51,8 +51,7 @@
           {
             "name": "Paul Inesta",
             "office": "San Francisco",
-            "dateofjoining": "2011/06/07",
-            "age": "33",
+            "dateofjoining": "2011",
             "position": "Software Engineer ",
             "experience": "10yrs",
             "salary": "70,000",
@@ -63,7 +62,7 @@
           {
             "name": "Chris Pratt",
             "office": "New York",
-            "dateofjoining": "2012/12/02",
+            "dateofjoining": "2012",
             "age": "30",
             "position": "Integration Specialist",
             "experience": "9yrs",
@@ -75,7 +74,7 @@
           {
             "name": "Travias scot",
             "office": "london",
-            "dateofjoining": "2011/05/03",
+            "dateofjoining": "2011",
             "age": "28",
             "position": "Software Engineer ",
             "experience": "10yrs",
@@ -87,7 +86,7 @@
           {
             "name": "Mohammad azhar",
             "office": "New York",
-            "dateofjoining": "2011/12/12",
+            "dateofjoining": "2011",
             "age": "24",
             "position": "Pre-Sales Support",
             "experience": "10yrs",
